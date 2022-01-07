@@ -4,8 +4,9 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
+#https://www.youtube.com/watch?v=8M20LyCZDOY
 st.write("""
-# Web Prediksi Pinguin Prediction App
+# Web Prediksi Jenis Pinguin
 
 Web ini memprediksi jenis dari spesies Pinguin Palmer berdasarkan input data yang diberikan.
 
@@ -65,3 +66,9 @@ st.write(penguins_species[prediction])
 
 st.subheader('Prediksi Probabilitas Jenis Pinguin')
 st.write(prediction_proba)
+st.write("""
+Keterangan:
+0 = Adelie;
+1 = Chinstrap;
+2 = Gentoo
+""")
