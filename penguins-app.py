@@ -6,9 +6,9 @@ from sklearn.ensemble import RandomForestClassifier
 
 #https://www.youtube.com/watch?v=8M20LyCZDOY
 st.write("""
-# Web Prediksi Jenis Pinguin
+# Web Prediksi Jenis Penguin
 
-Web ini memprediksi jenis dari spesies Pinguin Palmer berdasarkan input data yang diberikan.
+Web ini memprediksi jenis dari spesies Penguin Palmer berdasarkan input data yang diberikan.
 
 Data yang digunakan untuk membentuk model prediksi didapatkan dari [palmerpenguins library](https://github.com/allisonhorst/palmerpenguins) di R yang disediakan oleh Allison Horst.
 """)
